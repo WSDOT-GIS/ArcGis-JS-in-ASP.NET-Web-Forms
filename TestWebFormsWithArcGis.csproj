@@ -56,10 +56,6 @@
     <Content Include="Default.aspx" />
     <Content Include="Map.ascx" />
     <Content Include="Scripts\dojoConfig.js" />
-    <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
-    <Content Include="Scripts\jquery-1.7.1.js" />
-    <Content Include="Scripts\jquery-1.7.1.min.js" />
-    <Content Include="Scripts\map.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
