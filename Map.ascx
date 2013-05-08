@@ -7,18 +7,18 @@
 </asp:ScriptManager>
 <link href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.4amd/js/esri/css/esri.css" rel="stylesheet" />
 	<style>
-		html, body, #map, .map.container, form {
+		#<%=this.ID %>, .map.container, form {
 			padding:0;
 			margin:0;
 			height:100%;
 		}
 	</style>
-<div id="map"></div>
+<div id="<%=this.ID %>"></div>
 <script>
 	require(["esri/map", "esri/dijit/Attribution"], function (Map) {
 		var map;
 
-		map = new Map("map", {
+		map = new Map("<%=this.ID %>", {
 			basemap: "hybrid",
 			center: [-120.80566406246835, 47.41322033015946],
 			zoom: 7,

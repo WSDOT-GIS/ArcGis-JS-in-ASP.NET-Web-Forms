@@ -8,14 +8,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 	<title></title>
-<%--	<link href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.4amd/js/esri/css/esri.css" rel="stylesheet" />
 	<style>
-		html, body, #map, .map.container, form {
+		html, body, form {
 			padding:0;
 			margin:0;
 			height:100%;
 		}
-	</style>--%>
+	</style>
 </head>
 <body>
 	<form id="form1" runat="server">
