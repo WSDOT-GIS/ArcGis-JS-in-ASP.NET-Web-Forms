@@ -2,10 +2,11 @@
 
 Need to encapsulate an ArcGIS JavaScript API map into an ASP.NET Web Forms control? That's what this project is.
 
-I needed to replace a Silverlight map control with a JavaScript equivalent. I created this project in the process of learning how to do that.
+I needed to replace a Silverlight map control in a legacy Web Forms application with a JavaScript equivalent. I created this project in the process of learning how to do that.
 
 ## License ##
 Licensed under [The MIT License](http://opensource.org/licenses/MIT).
+
 The MIT License (MIT)
 
 Copyright (c) 2013 Washington State Department of Transportation
